@@ -2,6 +2,6 @@ version: '3'
 
 services:
   pycontainer:
-    image: stocks-pyenv
+    image: pyenv
     volumes:
         - ./src:/usr/local/bin/src
